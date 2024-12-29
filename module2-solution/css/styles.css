@@ -1,15 +1,10 @@
 html {
     background-color: antiquewhite;
 }
-#title {
+div #title {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: brown;
     text-align: center;
-}
-p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: maroon;
-    font-size: 120%;
 }
 .blocks {
     background-color: bisque;
@@ -27,3 +22,9 @@ p {
 .blocks > section > #block3Header {
     background-color: chocolate;
 }
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: maroon;
+    font-size: 120%;
+}
+
