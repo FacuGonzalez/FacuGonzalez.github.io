@@ -1,9 +1,15 @@
+html {
+    background-color: antiquewhite;
+}
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: brown;
+    text-align: center;
 }
-div {
+div section {
     background-color: bisque;
     box-sizing: border-box;
     border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
 }
