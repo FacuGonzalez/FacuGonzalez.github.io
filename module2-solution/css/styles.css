@@ -6,6 +6,11 @@ h1 {
     color: brown;
     text-align: center;
 }
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: maroon;
+    font-size: 120%;
+}
 .blocks {
     background-color: bisque;
     box-sizing: border-box;
