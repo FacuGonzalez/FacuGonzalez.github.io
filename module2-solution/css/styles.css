@@ -1,7 +1,7 @@
 html {
     background-color: antiquewhite;
 }
-div #title {
+h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: brown;
     text-align: center;
