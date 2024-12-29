@@ -48,7 +48,6 @@ p {
 .blocks section #block1Header {
     background-color: brown;
 	box-sizing: border-box;
-	max-height: auto;
 	width: 75px;
 	border: 1px solid black;
 	margin-top: 0;
@@ -59,7 +58,6 @@ p {
 .blocks section #block2Header {
     background-color: blueviolet;
     box-sizing: border-box;
-	max-height: auto;
 	width: 75px;
 	border: 1px solid black;
 	margin-top: 0;
@@ -70,7 +68,6 @@ p {
 .blocks section #block3Header {
     background-color: chocolate;
     box-sizing: border-box;
-	max-height: auto;
 	width: 75px;
 	border: 1px solid black;
 	margin-top: 0;
