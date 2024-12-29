@@ -11,19 +11,19 @@ p {
     color: maroon;
     font-size: 120%;
 }
-div.blocks {
+.blocks {
     background-color: bisque;
     box-sizing: border-box;
     border: 1px solid black;
     margin: 10px;
     padding: 10px;
 }
-div.blocks > section > #block1Header {
+.blocks > section > #block1Header {
     background-color: brown;
 }
-div.blocks > section > #block2Header {
+.blocks > section > #block2Header {
     background-color: blueviolet;
 }
-div.blocks > section > #block3Header {
+.blocks > section > #block3Header {
     background-color: chocolate;
 }
