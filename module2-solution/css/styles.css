@@ -2,29 +2,79 @@ html {
     background-color: antiquewhite;
 }
 h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Courier New, sans-serif;
     color: brown;
     text-align: center;
+	text-shadow: 1px 1px 1px black;
 }
-div {
-    background-color: bisque;
-    box-sizing: border-box;
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
-}
-.blocks > section > #block1Header {
-    background-color: brown;
-}
-.blocks > section > #block2Header {
-    background-color: blueviolet;
-}
-.blocks > section > #block3Header {
-    background-color: chocolate;
+h2 {
+	font-family: Tahoma, sans-serif;
+	color: white;
+	text-shadow: 2px 2px black;
+	font-size: 120%;
 }
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: maroon;
     font-size: 110%;
 }
-
+#block1{
+    background-color: bisque;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+	padding-top: 0;
+	padding-right: 0;
+}
+#block2 {
+    background-color: bisque;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+	padding-top: 0;
+	padding-right: 0;
+}
+#block3{
+    background-color: bisque;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+	padding-top: 0;
+	padding-right: 0;
+}
+.blocks section #block1Header {
+    background-color: brown;
+	box-sizing: border-box;
+	max-height: auto;
+	width: 75px;
+	border: 1px solid black;
+	margin-top: 0;
+    padding: 5px;
+	margin-left: auto;
+	text-align: center;
+}
+.blocks section #block2Header {
+    background-color: blueviolet;
+    box-sizing: border-box;
+	max-height: auto;
+	width: 75px;
+	border: 1px solid black;
+	margin-top: 0;
+	padding: 5px;
+	margin-left: auto;
+	text-align: center;
+}
+.blocks section #block3Header {
+    background-color: chocolate;
+    box-sizing: border-box;
+	max-height: auto;
+	width: 75px;
+	border: 1px solid black;
+	margin-top: 0;
+    padding: 5px;
+	margin-left: auto;
+	text-align: center;
+}
