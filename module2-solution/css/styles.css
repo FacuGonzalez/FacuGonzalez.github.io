@@ -6,7 +6,7 @@ h1 {
     color: brown;
     text-align: center;
 }
-.blocks {
+div.blocks {
     background-color: bisque;
     box-sizing: border-box;
     border: 1px solid black;
