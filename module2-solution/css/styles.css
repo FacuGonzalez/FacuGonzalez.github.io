@@ -45,7 +45,7 @@ p {
 	padding-top: 0;
 	padding-right: 0;
 }
-.blocks section #block1Header {
+.blocks #block1Header {
     background-color: brown;
 	box-sizing: border-box;
 	width: 75px;
@@ -55,7 +55,7 @@ p {
 	margin-left: auto;
 	text-align: center;
 }
-.blocks section #block2Header {
+.blocks #block2Header {
     background-color: blueviolet;
     box-sizing: border-box;
 	width: 75px;
@@ -65,7 +65,7 @@ p {
 	margin-left: auto;
 	text-align: center;
 }
-.blocks section #block3Header {
+.blocks #block3Header {
     background-color: chocolate;
     box-sizing: border-box;
 	width: 75px;
