@@ -1,77 +1,92 @@
 html {
     background-color: antiquewhite;
 }
+
 h1 {
-    font-family: Courier New, sans-serif;
+    font-family: 'Courier New', sans-serif;
     color: brown;
     text-align: center;
-	text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.75em;
 }
-h2 {
-	font-family: Tahoma, sans-serif;
-	color: white;
-	text-shadow: 2px 2px black;
-	font-size: 120%;
+
+.blocks {
+    display: block;
+    width: 96%;
+    margin: 20px auto;
+    overflow: hidden;
 }
-p {
+
+.blocks section {
+    box-sizing: border-box;
+    background-color: bisque;
+    border: 1px solid black;
+    margin: 10px 1.5%;
+    padding: 10px;
+    padding-top: 40px;
+    float: left;
+    position: relative;
+    text-align: justify;
+    width: 30%;
+    min-height: auto;
+}
+
+.blocks section h2 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+    width: 75px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.25em;
+}
+
+#block1 h2 {
+    background-color: brown;
+}
+
+#block2 h2 {
+    background-color: blueviolet;
+}
+
+#block3 h2 {
+    background-color: chocolate;
+}
+
+.blocks p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: maroon;
-    font-size: 110%;
+    font-size: 1em;
 }
-#block1{
-    background-color: bisque;
-    box-sizing: border-box;
-    border: 1px solid black;
-    margin: 20px;
-    padding: 10px;
-	padding-top: 0;
-	padding-right: 0;
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .blocks {
+        overflow: hidden;
+    }
+
+    #block1, #block2 {
+        width: 47%;
+        float: left;
+        margin: 30px 1.5%;
+        min-height: 200;
+    }
+
+    #block3 {
+        width: 97%;
+        float: none;
+        margin: 20px auto;
+        clear: both;
+    }
 }
-#block2 {
-    background-color: bisque;
-    box-sizing: border-box;
-    border: 1px solid black;
-    margin: 20px;
-    padding: 10px;
-	padding-top: 0;
-	padding-right: 0;
-}
-#block3{
-    background-color: bisque;
-    box-sizing: border-box;
-    border: 1px solid black;
-    margin: 20px;
-    padding: 10px;
-	padding-top: 0;
-	padding-right: 0;
-}
-.blocks #block1Header {
-    background-color: brown;
-	box-sizing: border-box;
-	width: 75px;
-	border: 1px solid black;
-	margin-top: 0;
-    padding: 5px;
-	margin-left: auto;
-	text-align: center;
-}
-.blocks #block2Header {
-    background-color: blueviolet;
-    box-sizing: border-box;
-	width: 75px;
-	border: 1px solid black;
-	margin-top: 0;
-	padding: 5px;
-	margin-left: auto;
-	text-align: center;
-}
-.blocks #block3Header {
-    background-color: chocolate;
-    box-sizing: border-box;
-	width: 75px;
-	border: 1px solid black;
-	margin-top: 0;
-    padding: 5px;
-	margin-left: auto;
-	text-align: center;
+
+@media screen and (max-width: 767px) {
+    .blocks section {
+        float: none;
+        width: 100%;
+        margin: 20px 0;
+    }
 }
