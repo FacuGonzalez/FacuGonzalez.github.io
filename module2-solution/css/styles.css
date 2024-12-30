@@ -1,20 +1,13 @@
 html {
-    	background-color: antiquewhite;
+    background-color: antiquewhite;
 }
 
 h1 {
-<<<<<<< HEAD
     font-family: 'Courier New', sans-serif;
     color: brown;
     text-align: center;
     text-shadow: 1px 1px 1px black;
     font-size: 1.75em;
-=======
-    	font-family: Courier New, sans-serif;
-    	color: brown;
-    	text-align: center;
-	text-shadow: 1px 1px 1px black;
->>>>>>> b1a028eefb3f2b400b82772f3a3d90d6286fb2ff
 }
 
 .blocks {
@@ -23,7 +16,6 @@ h1 {
     margin: 20px auto;
     overflow: hidden;
 }
-<<<<<<< HEAD
 
 .blocks section {
     box-sizing: border-box;
@@ -80,7 +72,7 @@ h1 {
         width: 47%;
         float: left;
         margin: 30px 1.5%;
-        min-height: 200;
+        min-height: 200px;
     }
 
     #block3 {
@@ -98,82 +90,3 @@ h1 {
         margin: 20px 0;
     }
 }
-=======
-.blocks {
-}
-#block1{
-    	background-color: bisque;
-    	box-sizing: border-box;
-   	border: 1px solid black;
-    	margin: 20px;
-    	padding: 10px;
-	padding-top: 0;
-	padding-right: 0;
-	max-width: 30%;
-	position: absolute;
-}
-#block2 {
-	background-color: bisque;
-	box-sizing: border-box;
-	border: 1px solid black;
-	margin: 20px;
-	padding: 10px;
-	padding-top: 0;
-	padding-right: 0;
-	max-width: 30%;
-	position: absolute;
-	float: auto;
-	left: 33%;
-}
-#block3{
-	background-color: bisque;
-	box-sizing: border-box;
-	border: 1px solid black;
-	margin: 20px;
-	padding: 10px;
-	padding-top: 0;
-	padding-right: 0;
-	max-width: 30%;
-	position: absolute;
-	float: auto;
-	left: 66%;
-}
-.blocks section #block1Header {
-	background-color: brown;
-	box-sizing: border-box;
-	max-height: auto;
-	width: 75px;
-	border: 1px solid black;
-	padding: 5px;
-	margin-top: 0;
-	margin-left: auto;
-	text-align: center;
-}
-.blocks section #block2Header {
-	background-color: blueviolet;
-	box-sizing: border-box;
-	max-height: auto;
-	width: 75px;
-	border: 1px solid black;
-	margin-top: 0;
-	padding: 5px;
-	margin-left: auto;
-	text-align: center;
-}
-.blocks section #block3Header {
-	background-color: chocolate;
-	box-sizing: border-box;
-	max-height: auto;
-	width: 75px;
-	padding: 5px;
-	border: 1px solid black;
-	margin-top: 0;
-	margin-left: auto;
-	text-align: center;
-}
-p {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: maroon;
-	font-size: 102%;
-}
->>>>>>> b1a028eefb3f2b400b82772f3a3d90d6286fb2ff
