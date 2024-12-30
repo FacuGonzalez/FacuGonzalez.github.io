@@ -90,3 +90,43 @@ p {
 	color: maroon;
 	font-size: 102%;
 }
+@media (max-width: 992px) {
+	
+#block1{
+    	background-color: bisque;
+    	box-sizing: border-box;
+    	border: 1px solid black;
+    	margin: 20px;
+    	padding: 10px;
+	padding-top: 0;
+	padding-right: 0;
+	max-width: 30%;
+	position: absolute;
+}
+#block2 {
+    	background-color: bisque;
+    	box-sizing: border-box;
+    	border: 1px solid black;
+    	margin: 20px;
+    	padding: 10px;
+	padding-top: 0;
+	padding-right: 0;
+	max-width: 30%;
+	position: absolute;
+	float: auto;
+	left: 33%;
+}
+#block3{
+    	background-color: bisque;
+    	box-sizing: border-box;
+    	border: 1px solid black;
+    	margin: 20px;
+    	padding: 10px;
+	padding-top: 0;
+	padding-right: 0;
+	max-width: 30%;
+	position: absolute;
+	float: left;
+	top: 80%;
+}
+}
