@@ -1,1 +1,70 @@
-
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .tall-section {
+    height: 1000px;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+  }
+  
+  .navbar-brand {
+    color: #fff;
+  }
+  
+  .navbar-brand:hover {
+    color: #ccc;
+  }
+  
+  .navbar-collapse {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+  }
+  
+  .navbar-collapse a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .navbar-collapse a:hover {
+    background-color: #555;
+    text-decoration: none;
+  }
+  .navbar-toggle {
+    display: none;
+  }
+  
+  .navbar-collapse {
+    display: none;
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-toggle {
+      display: block;
+    }
+  
+    .navbar-collapse {
+      display: none;
+    }
+  
+    .navbar-collapse.open {
+      display: block;
+      background-color: #333;
+    }
+  
+    .navbar-collapse a {
+      color: white;
+    }
+  }
+  
