@@ -1,76 +1,54 @@
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
+}
+
+h1.text-center {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+section {
+  height: 1000px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.navbar {
+  background-color: #333;
+  border: none;
+}
+
+.navbar .navbar-brand {
+  padding: 15px;
+}
+
+.navbar .navbar-toggle {
+  border-color: white;
+}
+
+.navbar .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  .navbar .collapse .nav > li {
+    display: none;
   }
-  
-  h1.text-center {
-    margin-top: 100px; /* Espacio para que el encabezado no quede oculto por el navbar */
+}
+
+@media (max-width: 767px) {
+  .navbar .navbar-collapse .nav > li {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding-top: 5px;
   }
-  
-  section {
-    height: 1000px; /* Puedes ajustar la altura según lo necesites */
-    background-color: #f2f2f2;
-    padding: 20px;
+
+  .navbar .navbar-collapse .nav > li:last-child {
+    border-bottom: none;
   }
-  
-  /* Navbar Styles */
-  .navbar {
-    background-color: #333;
-    border: none;
+
+  .navbar .navbar-collapse .nav > li > a {
+    color: #333;
+    font-size: 1.2em;
   }
-  
-  .navbar .navbar-brand {
-    color: #000 !important; /* Cambié el color de "Food, LLC" a negro */
-  }
-  
-  .navbar .nav > li > a {
-    color: #333 !important; /* Gris oscuro o negro para los enlaces */
-  }
-  
-  .navbar .navbar-toggle {
-    border-color: white;
-  }
-  
-  .navbar .navbar-toggle .icon-bar {
-    background-color: white;
-  }
-  
-  /* Ocultar botones del dropdown en desktop y tablet */
-  @media (min-width: 768px) {
-    .navbar .navbar-collapse .navbar-nav > li.dropdown {
-      display: none !important; /* Ocultar el dropdown en desktop y tablet */
-    }
-  }
-  
-  /* Dropdown menu en mobile view */
-  .navbar .collapse .dropdown-menu {
-    background-color: #f8f8f8; /* Fondo diferente para el dropdown */
-    min-width: 100%;
-    position: absolute;
-    top: 100%; /* Aparece debajo del navbar */
-    left: 0;
-    border: 1px solid #ddd; /* Agrega un borde para diferenciar los items */
-    z-index: 9999; /* Asegura que se muestre sobre otros elementos */
-    display: none; /* Inicialmente oculto */
-  }
-  
-  /* Mostrar el dropdown solo en mobile */
-  @media (max-width: 767px) {
-    .navbar .navbar-toggle.collapsed + .navbar-collapse .dropdown-menu {
-      display: block; /* Mostrar dropdown en mobile */
-    }
-  
-    /* Estilo para los items dentro del dropdown */
-    .navbar .collapse .dropdown-menu li {
-      border-bottom: 1px solid #ddd; /* Borde entre cada item */
-    }
-  
-    .navbar .collapse .dropdown-menu li:last-child {
-      border-bottom: none; /* El último item no tendrá borde inferior */
-    }
-  }
-  
-  /* Añadir espacio debajo del navbar para evitar superposición */
-  body {
-    padding-top: 60px; /* Ajusta este valor para dar espacio al contenido debajo del navbar */
-  }
-  
+}
