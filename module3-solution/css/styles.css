@@ -1,22 +1,20 @@
 * {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 body {
   font-family: Arial, sans-serif;
-
 }
 
 h1.text-center {
   margin-top: 0;
   margin-bottom: 15px;
-  
 }
 
 section {
-  min-height: 1999px;
+  height: auto;
   background-color: #dff0f0;
-  padding: 20px;
+  padding-top: 12px;
 }
 
 .navbar {
@@ -44,18 +42,22 @@ section {
     text-align: center;
     padding-top: 5px;
     border-bottom: 1px solid #ddd;
-} 
- .navbar-header {
-  border-bottom: 1px solid #ccc;
+  }
+  .navbar-header {
+    border-bottom: 1px solid #ccc;
+  }
+  .navbar-toggle .icon-bar {
+    background-color: #777 !important; 
+  }
+  .navbar-toggle {
+    border-color: #bbb !important;   
+  }
+  .navbar .navbar-collapse .nav > li > a {
+    color: #333;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+  }
 }
-.navbar-toggle .icon-bar {
-  background-color: #777 !important; 
-}
-.navbar-toggle {
-  border-color: #bbb !important;   
-}
-.navbar .navbar-collapse .nav > li > a {
-  color: #333;
-  font-size: 1.2em;
-  border: 1px solid #ccc;
+section .container .row .col-xs-12 {
+  text-align: center;
 }
